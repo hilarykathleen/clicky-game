@@ -7,7 +7,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Click on a to gain points! Click on the same one twice and you lose!";
+let clickMessage = "Click on an animal to gain points! Click on the same one twice and you lose!";
 
 class App extends Component {
     
@@ -35,7 +35,7 @@ class App extends Component {
             console.log ("Best Score: " + bestScore);
 
             correctGuesses = 0;
-            clickMessage = "Bummer! You already clicked on this one."
+            clickMessage = "Aw shucks! You already clicked on this one. Keep trying, don't give up!"
 
             for (let i = 0 ; i < matches.length ; i++){
                 matches[i].clicked = false;
@@ -54,7 +54,7 @@ class App extends Component {
             // increment the appropriate counter
             correctGuesses++;
             
-            clickMessage = "Great! You haven't click on that one yet! Keep going!";
+            clickMessage = "Great Job! You haven't click on that one yet! Keep going!";
 
             if (correctGuesses > bestScore){
                 bestScore = correctGuesses;
@@ -76,8 +76,8 @@ class App extends Component {
             // restart the guess counter
             correctGuesses = 0;
 
-            // Egg on the user to play again
-            clickMessage = "WOW!!! You got ALL of them!!! Now, let's see if you can do it again!";
+            // message to encourage player to continue playing
+            clickMessage = "Hooray! You did it! Great job";
             bestScore = 12;
             this.setState({ bestScore });
             
