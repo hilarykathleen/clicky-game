@@ -1,61 +1,61 @@
 [{
     "id": 1,
-    "image": "./assets/images/antman.jpg",
+    "image": "./assets/images/fish.png",
     "clicked": false
 },
 {
     "id": 2,
-    "image": "./assets/images/forceAwakens.jpg",
+    "image": "./assets/images/snake.png",
     "clicked": false
 },
 {
     "id": 3,
-    "image": "./assets/images/ghostbusters.jpg",
+    "image": "./assets/images/armadillo.png",
     "clicked": false
 },
 {
     "id": 4,
-    "image": "./assets/images/guardians.jpg",
+    "image": "./assets/images/badger.png",
     "clicked": false
 },
 {
     "id": 5,
-    "image": "./assets/images/hangover.jpg",
+    "image": "./assets/images/chicken.png",
     "clicked": false
 },
 {
     "id": 6,
-    "image": "./assets/images/harryPotter.jpg",
+    "image": "./assets/images/jellyfish.png",
     "clicked": false
 },
 {
     "id": 7,
-    "image": "./assets/images/jaws.jpg",
+    "image": "./assets/images/goat.png",
     "clicked": false
 },
 {
     "id": 8,
-    "image": "./assets/images/maleficent.jpg",
+    "image": "./assets/images/dragon.png",
     "clicked": false
 },
 {
     "id": 9,
-    "image": "./assets/images/pirates.jpg",
+    "image": "./assets/images/fox.png",
     "clicked": false
 },
 {
     "id": 10,
-    "image": "./assets/images/skyfall.jpg",
+    "image": "./assets/images/kangaroo.png",
     "clicked": false
 },
 {
     "id": 11,
-    "image": "./assets/images/spiderman.jpg",
+    "image": "./assets/images/quail.png",
     "clicked": false
 },
 {
     "id": 12,
-    "image": "./assets/images/stepBrothers.jpg",
+    "image": "./assets/images/hippo.png",
     "clicked": false
 }
 ]
